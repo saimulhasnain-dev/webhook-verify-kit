@@ -1,0 +1,48 @@
+{
+  "name": "webhook-verify-kit",
+  "version": "1.0.0",
+  "description": "Verify incoming webhook signatures (Stripe, GitHub, Shopify, Slack, generic HMAC) with constant-time compare, replay protection and secret rotation. Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "webhook",
+    "signature",
+    "hmac",
+    "stripe",
+    "github",
+    "shopify",
+    "slack",
+    "verify",
+    "security",
+    "express"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saimulhasnain-dev/webhook-verify-kit.git"
+  },
+  "homepage": "https://github.com/saimulhasnain-dev/webhook-verify-kit#readme",
+  "bugs": {
+    "url": "https://github.com/saimulhasnain-dev/webhook-verify-kit/issues"
+  },
+  "author": "saimulhasnain-dev"
+}
